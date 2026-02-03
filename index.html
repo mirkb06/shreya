@@ -16,6 +16,22 @@
     <div class="music-control" id="music-toggle">🔇</div>
 
     <div class="book-container">
+      <!-- Intro / Cover Page -->
+      <div class="episode active" id="intro">
+        <div class="polaroid" style="transform: rotate(0deg)">
+          <img
+            src="assets/images/cover.png"
+            style="width: 100%"
+            alt="Our Love Story"
+          />
+        </div>
+        <h1 style="margin-top: 1rem; font-size: 2.5rem">The Book of Us</h1>
+        <p>A collection of beautiful moments...</p>
+        <div class="nav-buttons">
+          <button class="btn next-btn">Open Book ✨</button>
+        </div>
+      </div>
+
       <!-- Episode 1 -->
       <div class="episode" id="ep1">
         <div class="polaroid">
@@ -60,13 +76,25 @@
         <div class="polaroid">
           <img src="assets/images/episode3.png" alt="The Question" />
         </div>
-        <h1>Chapter 3: The Question</h1>
+        <h1>Chapter 3: The Promise</h1>
         <p>
           We've come this far, and my heart tells me there's only one thing left
           to ask...
         </p>
-        <h2>Will you be my Valentine?</h2>
         <div class="nav-buttons">
+          <button class="btn next-btn">Final Page 💖</button>
+        </div>
+      </div>
+
+      <!-- Episode: The Question -->
+      <div class="episode" id="question-page">
+        <h1 style="font-size: 3rem; margin-bottom: 2rem">
+          One Last Question...
+        </h1>
+        <h2 style="font-size: 2rem; color: #d00000">
+          Will you be my Valentine?
+        </h2>
+        <div class="nav-buttons" style="margin-top: 3rem">
           <button id="yes-btn" class="btn heart-btn">Yes! 💖</button>
           <button id="no-btn" class="btn">No 😅</button>
         </div>
